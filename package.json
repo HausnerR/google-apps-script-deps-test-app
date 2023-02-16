@@ -1,0 +1,25 @@
+{
+  "name": "google-apps-script-deps-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "scripts": {
+    "gas": "webpack --config webpack.gas.js",
+    "deploy": "npm run gas && cd dist && clasp push && clasp open --webapp"
+  },
+  "author": "Jakub Pachciarek",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "cheerio": "^1.0.0-rc.12",
+    "luxon": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

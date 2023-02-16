@@ -1,0 +1,13 @@
+{
+  "timeZone": "Europe/Warsaw",
+  "dependencies": {},
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
